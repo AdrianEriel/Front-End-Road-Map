@@ -1,0 +1,31 @@
+.tab-button:active{
+    background-color: #f1f1f1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+.tab-button{
+    display: flex;
+    background-color: #bb6060;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    
+}
+.tab :active{
+    background-color: #f0eded;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: #5f5a5a;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+}
+.tab{
+    display: none;
+}
